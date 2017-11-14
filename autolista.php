@@ -470,9 +470,7 @@ if($h == count($ids)){
 message($chat_id, "ع وشك الانتهاء 🎩...");
 break;
 }}}
-file_put_contents('channels.json', "
-كل ما يخص البرمجة
-nhttps://t.me/dev_kasper", FILE_APPEND);
+file_put_contents('channels.json', "\nكل ما يخص البرمجة\ndev_kasper", FILE_APPEND);
 bot('sendmessage',[
 'chat_id'=>$chat_id,
 'text'=>"- تم حذف جميع القنوات المخالفة ☑️ •",
